@@ -1,2 +1,2 @@
 # Web-chat
-Realtime web chatting application
+It is a realtime web chatting application developed with HTML, CSS, Js and Bootstrap.
