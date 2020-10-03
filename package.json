@@ -10,9 +10,17 @@
   "author": "amit rawat",
   "license": "ISC",
   "dependencies": {
+    "@azure/cosmos": "^3.9.2",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-session-azure": "^0.2.3",
+    "firebase": "^7.22.0",
     "moment": "^2.29.0",
+    "mongodb": "^3.6.2",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0",
+    "password": "^0.1.1",
     "socket.io": "^2.3.0"
   }
 }

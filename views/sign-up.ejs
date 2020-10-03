@@ -4,35 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
-    <title>ChatCord App</title>
+    <link rel="stylesheet" href="style.css">
+    <title> Sandesh Vitaran </title>
 </head>
 <body>
 
-    <div class="container">
-        <form action="/login" method="POST">
-          <div class="form-group">
+    <div class="signup_container">
+      <div class="signup">
+        <div class="logo">
+          <h1><i class="fas fa-smile"></i> Sandesh Vitaran</h1>
+        </div>
+
+        <div class="log">
+          <h1> SignUp </h1>
+        </div>
+        <div class="align">
+        <form action="/sign-up" method="POST">
+          <div class="f1 form-group">
             <label for="email">Email:</label>
             <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
           </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" class="form-control" id="username" placeholder="Enter your username" name="username">
+          <div class="f1 form-group">
+            <label for="username">Username:</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter your username" name="username">
           </div>
-          <div class="form-group">
+          <div class="f1 form-group">
             <label for="pwd">Password:</label>
             <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
           </div>
-          <div class="form-group">
-            <label for="pwd">Password:</label>
+          <div class="f1 form-group">
+            <label for="pwd">Confirm Password:</label>
             <input type="password" class="form-control" id="pwd" placeholder="Confirm password" name="pswd">
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="button">
+           <button type="submit" class="login_btn">Submit</button>
+        </div>
         </form>
       </div>
-      
-
-
-
+    </div>
 </body>
 </html>
